@@ -1,0 +1,13 @@
+Clock - 1700 371
+State Machine - 2910 92
+Control Unit - 2625 268
+ALU - 5121 559
+Data Load Mux - 5508 1046
+Register File - 3830 893
+Instruction Register - 2174 603
+8_2_1 Mux - 3311 1678
+7 Seg - 3469 2350
+PC ALU - 4739 2173
+PC - 4040 2565
+8_2_1 Mux - 6408 1566
+7 Seg - 6715 1509

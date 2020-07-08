@@ -1,0 +1,74 @@
+<html lang = en-US>
+    <header>
+        <title>
+            Resume Justin Chau AVR
+        </title>
+        <meta charset = "UTF-8">
+        <meta name = "Author" content = "Justin Chau">
+        <meta name = "Description" content = "ASEE AVR Project Page">
+        <link rel = "stylesheet" href = "ResumeStyles.css">
+    </header>
+
+    <body class = divBackground>
+        <div class = divForeground>
+            <ul class = ulNavBar>
+                <div class = divContainer>
+                <li class = liNavBar><a href = "index.html">Home</a></li>
+                <li class = liNavBar><a href = "Education.html">Education</a></li>
+                <li class = liNavBar><a href = "Skills.html">Skills</a></li>
+                <li class = liNavBar><a href = "Work-Experience.html">Work Experience</a></li>
+                <li class = liNavBar><a href = "Major-Projects.html">Major Projects</a></li>
+                <li class = liNavBar><a href = "AVR-Home.html">WIMP AVR Project</a></li>
+                </div>
+            </ul>
+        <div class = divContainer>
+            <h1>
+                WIMP AVR Layout Guide
+            </h1>
+            <p class = description>
+                The WIMP AVR has two modes: Program Mode and Operating Mode.
+            </p>
+            <p class = description>
+                Details about design features and modes of the WIMP AVR can be found in the 
+                <a href = "/Documents/WIMP AVR Technical User Guide.pdf">technical user guide.</a>
+            </p>
+            <p class = description>
+                Return to the
+                <a href = AVR-Home.html>WIMP AVR Homepage</a>
+            </p>
+            <h2>
+                Program Mode
+            </h2>
+            <p class = description>               
+                During Program Mode, instructions can be written into the SRAM chip on the FPGA for the WIMP AVR to perform during operating mode. 
+                Instructions are written to the SRAM chip manually with binary using 16 switches. 
+                The switches were used to set the instruction information and the address in the SRAM the instruction was written to. 
+                The 7 segment displays on the FPGA were used to display instruction and memory address information.
+                The valid instructions that the WIMP AVR can perform are listed in the table below.
+                Incorrect instructions may cause the WIMP AVR to perform unexpected operations.
+            </p>
+            <div class = container>
+                <img src = "Project WIMP AVR/Images/Instructions.PNG" class = img>
+            </div>
+            <div class = container>
+                <img src = "Project WIMP AVR/Images/Program Layout.PNG" class = img>
+            </div>
+
+
+            <h2>
+                Operating Mode
+            </h2>
+            <p class = description>
+                During Operating Mode, the WIMP AVR will start in an idle state.
+                The processor is activated by activating the master switch.
+                Once the master switch is activated, the processor will start at address 0 and execute the instructions written in the SRAM chip.
+                The 7 segment displays were used to display information stored and read by the processor.
+                The clock of the processor can be controlled by using the clock control switches and then selecting hte clock set key.
+            </p>
+            <div class = container>
+                <img src = "Project WIMP AVR/Images/DE2 Processor Interface2.png" class = img>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

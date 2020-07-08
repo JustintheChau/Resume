@@ -1,0 +1,64 @@
+.divBackground{
+    background-color:darkslategray; 
+    margin:auto;
+    width: 100%;
+    overflow: auto;
+}
+
+.divForeground{
+    background-color: white;
+    height: auto;
+    position: absolute;
+    top: -20;
+    left: 10%;
+    right: 10%;
+   
+}
+
+.description{
+    font-size: 100%;
+    text-align: left;
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.divContainer, .divContact{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.divContact{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.ulNavBar{
+    list-style-type: none;
+    background-color: slategray;
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.liNavBar{
+    float: left;
+    background-color: slategray;
+}
+
+.liNavBar a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.liNavBar a:hover{
+    background-color: black;
+    color: white;
+}
