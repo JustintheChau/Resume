@@ -1,16 +1,17 @@
 <html lang=en-US>
     <head>
         <title>
-            Resume: Education
+            Resume: Home
         </title>
         <meta charset = UTF-8>
         <link rel = stylesheet href = ResumeStyles.css>
+        <link rel = stylesheet href = "Carousel Files/CarouselStyles.css">
+        <script src = "Carousel Files/CarouselScripts.js"></script>
     </head>
 
     <body class = divBackground>
-        <div class = divForeground>
         <ul class = ulNavBar>
-            <div class = divContainer>
+            <div class = divContainer2>
             <li class = liNavBar><a href = "index.html">Home</a></li>
             <li class = liNavBar><a href = "Education.html">Education</a></li>
             <li class = liNavBar><a href = "Skills.html">Skills</a></li>
@@ -19,32 +20,22 @@
             <li class = liNavBar><a href = "AVR-Home.html">WIMP AVR Project</a></li>
             </div>
         </ul>
+        <div class = Foreground>
 
-            <div class = divContainer>
-                <h1>
-                    Welcome to the Online Resume for Justin Chau
-                </h1>
-                <h2>
-                    Current Employment: The Boeing Company
-                </h2>
-                <h3>
-                    Position: System Security Engineer
-                </h3>
-                <h3>
-                    Start Date: June 2020
-                </h3>
-                <h2>
-                    Personally Developing Skills in Programming:
-                </h2>
-                <h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Java Script</li>
-                </ul>
-                </h3>
-            </div>
-            <div class = divContact>
+
+           
+                <div class = carouselContainer onmouseover = "Disable()" onmouseout = "Enable()">
+
+                    <div class = forwardSlide onclick = "SlideForward()"><h1>&rarr;</h1></div>
+                   <div class = divFrameContainer>
+                    <iframe id = Carousel style = "opacity: 1" src = "Carousel Files/Education-Summary.html"></iframe>  
+                    </div>
+                
+                    <div class = backSlide onclick = "SlideBack()"><h1>&larr;</h1></div>
+                </div>
+
+
+            <div class = divContact2>
                 <h1>
                     Contact: Justin Chau
                 </h1>
