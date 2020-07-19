@@ -5,10 +5,12 @@
         </title>
         <meta charset = UTF-8>
         <link rel = stylesheet href = ResumeStyles.css>
+        <link rel = stylesheet href = "Carousel Files/CarouselStyles.css">
+        <script src = "Carousel Files/CarouselScripts.js"></script>
     </head>
 
     <body class = divBackground>
-        <div class = divForeground>
+
         <ul class = ulNavBar>
             <div class = divContainer>
             <li class = liNavBar><a href = "index.html">Home</a></li>
@@ -20,31 +22,16 @@
             </div>
         </ul>
 
-            <div class = divContainer>
-                <h1>
-                    Welcome to the Online Resume for Justin Chau
-                </h1>
-                <h2>
-                    Current Employment: The Boeing Company
-                </h2>
-                <h3>
-                    Position: System Security Engineer
-                </h3>
-                <h3>
-                    Start Date: June 2020
-                </h3>
-                <h2>
-                    Personally Developing Skills in Programming:
-                </h2>
-                <h3>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Java Script</li>
-                </ul>
-                </h3>
+        <div class = divForeground>
+        <div class = carouselContainer onmouseover = "Disable()" onmouseout = "Enable()">
+            <div class = forwardSlide onclick = "SlideForward()"><h1>Next</h1></div>
+            <div class = divFrameContainer>
+            <iframe id = Carousel style = "opacity: 1" src = "Carousel Files/Education-Summary.html"></iframe>  
             </div>
-            <div class = divContact>
+            <div class = backSlide onclick = "SlideBack()"><h1>Prev</h1></div>
+        </div>
+
+            <div class = divContact2>
                 <h1>
                     Contact: Justin Chau
                 </h1>
@@ -58,6 +45,7 @@
                     </address>
             </div>
             
-        </div>
+        
+    </div>
     </body>
 </html>

@@ -7,9 +7,9 @@
 
 .divForeground{
     background-color: white;
-    height: auto;
+    height: 100%;
     position: absolute;
-    top: 0;
+    top: 10%;
     left: 10%;
     right: 10%;
    
@@ -18,58 +18,49 @@
 .description{
     font-size: 100%;
     text-align: left;
-    width: 100%;
+    width: 80%;
     margin: auto;
 }
 
+.img {
+    width: 100%;
+}
 
-
-.divContainer, .divContact{
+.divContainer, .divContact, .divContact2{
     background-color: white;
     width: 80%;
     margin: auto;
     
 }
 
-.divContact2{
-    background-color: white;
+.divContact, .divContact2{
     width: 100%;
-    margin: auto;
-    position: absolute;
-    top: 100%;
-    padding-bottom: 10%;
-}
-
-.divContact2 address, .divContact2 h1 {
-    margin-left: 10%;
-}
-
-.divContainer2 {
-    position: absolute;
-    background-color: slategray;
-    width: 100%;
-    left: 10%;
-    top: 0%;
-}
-.divContact{
     padding-top: 10%;
     padding-bottom: 5%;
 }
 
-.ulNavBar{
+.divContact2{
     position: absolute;
-    top: 0%;
-    left: 10%;
-    right: 10%;
+    top: 500px;
+    width: 100%;
+}
+
+.divContact address, .divContact h1, .divContact2 address, .divContact2 h1 {
+    margin-left: 10%;
+}
+
+.ulNavBar{
     list-style-type: none;
     background-color: slategray;
+    width: 80%;
+    margin-left: 10%;
+    padding: 0;
     overflow: hidden;
     z-index: 1;
     height: 10%;
 }
 
 .liNavBar{
-
     float: left;
     background-color: slategray;
 }
@@ -79,20 +70,10 @@
     color: white;
     text-align: center;
     text-decoration: none;
-    left: 10%;
-    padding: 7px;
-    top: 50%;
+    padding: 10px;
 }
 
 .liNavBar a:hover{
     background-color: black;
     color: white;
 }
-
-.img{
-    max-width: 100%;
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> ed919d80fc29db4656537d6311118c9a4f64126d
