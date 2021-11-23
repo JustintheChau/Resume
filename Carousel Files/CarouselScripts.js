@@ -11,7 +11,7 @@ function RotateCarousel() {
             CarouselFrame.setAttribute("src", "Carousel Files/Education-Summary.html");
             break;
         case 1:
-            CarouselFrame.setAttribute("src", "Carousel Files/Major-Projects-Summary.html");
+            CarouselFrame.setAttribute("src", "Carousel Files/Skills-Summary.html");
             break;
         case 2:
             CarouselFrame.setAttribute("src", "Carousel Files/Work-Experience-Summary.html");
